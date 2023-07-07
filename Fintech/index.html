@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SmartCash</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Sora&display=swap" rel="stylesheet">
+
+  <!-- Fonts Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- Minha CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <!-- Começo header -->
+  <header class="container mt-3">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <i class="fa-solid fa-coins"></i> SmartCash</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#solucoes">Soluções</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Junte-se
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#modallogin" data-bs-toggle="modal" data-bs-target="#modallogin">Entrar</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#modalcadastro" data-bs-toggle="modal" data-bs-target="#modalcadastro">Cadastrar</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Fim header da página -->
+
+  <!-- sobre -->
+  <section class="container mt-5 sobre" id="sobre">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-lg-6">
+        <h2 class="my-title display-5 my-4">Reinvente o modo como você lida com o dinheiro, com a SmartCash</h2>
+        <h3 class="mb-4">Revolucione seu mundo financeiro com a SmartCash de forma simples e inteligente!</h3>
+        <a href="" class="btn btn-primary btn-lg">Mais Informações <i class="fa-solid fa-arrow-right-long ms-1"></i> </a>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="./images/fintech.jpg" alt="ilustração de duas pessoas conversando sobre investimento." class="img-fluid">
+      </div>
+    </div>
+  </section>
+  <!-- Fim sobre -->
+
+  <!-- Quem somos-->
+  <section class="container my-5" id="smart">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-lg-6 bg-blue-2 m-0 pe-0">
+        <h4 class="my-1 my-title my-4">SmartCash</h4>
+        <h4 class="my-title my-4">Quem somos?</h4>
+        <p class="mb-5">A SmartCash é empresa que combina tecnologia e inovação para fornecer serviços financeiros de forma ágil, eficiente e acessível, abrangendo áreas como pagamentos, empréstimos, investimentos, seguros, entre outros. Surgimos em 2023, com o intuito de ajudar todas as pessoas a investirem de forma simples e rápida.</p>
+        <a href="" class="btn btn-primary btn-lg text-light mb-5">Conheça agora <i class="fa-solid fa-arrow-right-long ms-1"></i> </a>
+      </div>
+      <div class="col-lg-6 text-center m-0 p-0">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/carrossel1.jpg" class="d-block w-100" alt="Ilustração de um monitor.">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/carrossel2.jpg" class="d-block w-100" alt="Ilustração de um homem subindo em três livros.">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/carrossel4.jpg" class="d-block w-100" alt="Ilustração de uma mulher com um lápis gigante na mão com uma tela de fundo.">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fim Quem somos -->
+
+  <!-- Soluções -->
+  <section class="container my-5" id="solucoes">
+    <h4 class="my-title text-center my-mt">Soluções</h4>
+    <h3 class="text-center my-title mb-4">Veja o que podemos oferecer para você!</h3>
+
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="col-lg-4 my-2">
+        <div class="card text-center p-4">
+          <i class="fa-solid fa-chart-line icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Investimento</h5>
+            <p class="card-text">Te ajudamos a investir de forma simples e fácil.</p>
+            <a href="#" class="btn btn-primary">Mais Informações</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-2">
+        <div class="card text-center p-4">
+          <i class="fa-solid fa-shield-halved icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Segurança</h5>
+            <p class="card-text">Seus dados e informações estão seguros conosco.</p>
+            <a href="#" class="btn btn-primary">Mais Informações</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-2">
+        <div class="card text-center p-4">
+          <i class="fa-solid fa-code-branch icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Tecnologia</h5>
+            <p class="card-text">Conectamos você ao futuro financeiro, com tecnologia e confiança.</p>
+            <a href="#" class="btn btn-primary">Mais Informações</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-2">
+        <div class="card text-center p-4">
+          <i class="fa-solid fa-money-bills icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Futuro</h5>
+            <p class="card-text">Conquiste o controle financeiro, e tenha um futuro de sucesso.</p>
+            <a href="#" class="btn btn-primary">Mais Informações</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-2">
+        <div class="card text-center p-4">
+          <i class="fa-solid fa-comments-dollar icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Agilidade</h5>
+            <p class="card-text">Entregamos serviço e atendimento de forma ágil e rápida.</p>
+            <a href="#" class="btn btn-primary">Mais Informações</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 my-2">
+        <div class="card text-center p-4">
+          <i class="fa-solid fa-circle-check icon"></i>
+          <div class="card-body">
+            <h5 class="card-title">Soluções Personalizadas</h5>
+            <p class="card-text">Soluções financeiras personalizadas para você, com a expertise da SmartCash.</p>
+            <a href="#" class="btn btn-primary">Mais Informações</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fim Soluções -->
+
+    <!-- Missão Visão Valores -->
+    <div  style="background-color: #eee5f1;">
+      <section class="container mt-5 sobre" id="mvv">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-lg-8">
+            <h2 class="my-title display-5 my-4">Missão</h2>
+            <h3 class="mb-4">Nossa missão é proporcionar soluções financeiras inovadoras, acessíveis e eficientes, aproveitando a tecnologia para melhorar a vida financeira das pessoas e das empresas.</h3>
+          </div>
+          <div class="col-lg-4 text-center">
+            <img src="./images/missão.png" alt="Três pessoas subindo uma bandeira." class="img-fluid">
+          </div>
+
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-lg-4 text-center">
+            <img src="./images/visão.png" alt="ilustração de um homem olhando um monóculo." class="img-fluid">
+          </div>
+          <div class="col-lg-8">
+            <h2 class="my-title display-5 my-4">Visão</h2>
+            <h3 class="mb-4">
+              <ol>
+                <li>Democratizar o acesso financeiro;</li>
+                <li>Simplificar a complexidade financeira;</li>
+                <li>Liderar a inovação financeira;</li>
+                <li>Capacitar o crescimento financeiro pessoal e empresarial;</li>
+                <li>Construir relacionamentos financeiros sustentáveis.</li>
+              </ol>
+            </h3>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-lg-7">
+            <h2 class="my-title display-5 my-4">Valores</h2>
+            <h3 class="mb-4">Nossos valores são: Inovação, Acessibilidade, Transparência, Segurança, Atendimento ao cliente, Ética, Colaboração e Empoderamento financeiro.</h3>
+          </div>
+          <div class="col-lg-5 text-center">
+            <img src="./images/valores.png" alt="Ilustração de quatro pessoas montando um quebra-cabeça ded lâmpada." class="img-fluid">
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Fim Missão Visão Valores -->
+
+    <!-- Começo Funções -->
+    <section class="container my-5" id="funcoes">
+      <h4 class="my-title text-center my-mt">Funções</h4>
+      <h3 class="text-center my-title mb-4">Veja algumas das nossas funcionalidades</h3>
+
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-lg-3 my-2">
+          <div class="card text-center">
+            <img src="./images/data1.png" class="card-img-top" alt="Ilustração de duas pessoas conversando sobre investimento.">
+            <div class="card-body">
+              <h4 class="card-title">Recebimentos</h4>
+              <p class="card-text">Receba pagamentos de forma rápida, segura e conveniente.</p>
+              <div class="mt-5">
+                <a href="#" class="btn btn-primary">Mais Informações</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 my-2">
+          <div class="card text-center">
+            <img src="./images/data2.png" class="card-img-top" alt="Ilustração de uma mulher ao lado de um celular visualizando um recido de investimento.">
+            <div class="card-body">
+              <h4 class="card-title">Gestão de Gastos</h4>
+              <p class="card-text">Controle, acompanhe e otimize seus gastos financeiros.</p>
+              <div class="mt-5">
+                <a href="#" class="btn btn-primary">Mais Informações</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 my-2">
+          <div class="card text-center">
+            <img src="./images/data3.png" class="card-img-top" alt="Ilustração de um homem analisando dados em uma tela.">
+            <div class="card-body">
+              <h4 class="card-title">Investimentos</h4>
+              <p class="card-text">Investimentos mais acessíveis, convenientes e transparentes.</p>
+              <div class="mt-5">
+                <a href="#" class="btn btn-primary">Mais Informações</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 my-2">
+          <div class="card text-center">
+            <img src="./images/data4.png" class="card-img-top" alt="Ilustração de um homem com uma lupa observando gráficos.">
+            <div class="card-body">
+              <h4 class="card-title">Transações</h4>
+              <p class="card-text">Soluções inovadoras para facilitar e agilizar transações.</p>
+              <div class="mt-5">
+                <a href="#" class="btn btn-primary">Mais Informações</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fim equipe -->
+  
+  <!-- Modal Login -->
+  <div class="container">
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Fazer Login
+    </button> -->
+    <div class="modal fade" id="modallogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Acesse sua conta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-12 my-2">
+                                <label for="usuario" class="form-label">Usuário</label>
+                                <input type="text" name="usuario" id="usuario" class="form-control">
+                            </div>
+                            <div class="col-12 my-2">
+                                <label for="senha" class="form-label">Senha</label>
+                                <input type="password" name="senha" id="senha" class="form-control">
+                            </div>
+                            <div class="col-12 my-2 d-flex justify-content-end">
+                            </div>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Fazer Login</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- Fim Modal Login -->
+
+    <!-- Modal Cadastro -->
+    <div class="container">
+      <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Cadastrar
+      </button> -->
+      <div class="modal fade" id="modalcadastro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Faça seu cadastro</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form action="">
+                          <div class="row">
+                            <div class="col-lg-6 my-3">
+                              <label for="nome" class="form-label">Seu nome</label>
+                              <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                            </div>
+                            <div class="col-lg-6 my-3">
+                              <label for="cpf" class="form-label">Seu CPF</label>
+                              <input type="text" class="form-control" id="nome" placeholder="Seu CPF">
+                            </div>
+                              <div class="col-12 my-2">
+                                  <label for="usuario" class="form-label">E-mail</label>
+                                  <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Seu e-mail">
+                              </div>
+                              <div class="col-12 my-2">
+                                  <label for="senha" class="form-label">Senha</label>
+                                  <input type="password" name="senha" id="senha" class="form-control" placeholder="Crie sua senha">
+                              </div>
+                              <div class="col-12 my-2 d-flex justify-content-end">
+                              </div>
+                          </div>
+                  </div>
+                  <div class="modal-footer">
+                      <button type="submit" class="btn btn-primary" data-bs-dismiss="modal">Cadastrar</button>
+                  </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- Fim Modal Cadastro -->
+
+  <!-- Accordion Perguntas Frequentes -->
+  <div class="container">
+    <h4 class="text-center display-4 my-3 my-title">Perguntas Frequetes</h4>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Como posso abrir uma conta na SmartCash?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              Basta abrir uma conta pelo site ou aplicativo, você precisará fornecer seus dados pessoais, documentos de identificação e passar por um processo de verificação para abrir a conta.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Quais tipos de serviços financeiros a SmartCash pode oferecer?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              A SmartCash podem oferecer uma ampla gama de serviços financeiros, como pagamentos digitais, transferências internacionais, empréstimos peer-to-peer, gestão de investimentos, cartões de crédito, seguros, entre outros.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            A SmartCash é segura para lidar com o meu dinheiro?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              Sim, a SmartCash é regulada por órgãos financeiros e adota medidas de segurança para proteger seus dados e transações. Além disso, utilizamos tecnologias avançadas, como criptografia, autenticação de dois fatores e monitoramento contínuo, para garantir a segurança das operações financeiras.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Posso confiar nas recomendações de investimento que vocês oferecem?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+              Sim, nós utilizamos algoritmos e inteligência artificial para fornecer recomendações personalizadas ideais e seguras para você.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim Accordion Perguntas Frequentes -->
+
+  <!-- Footer -->
+  <section class="container-fluid bg-blue-2 mt-5" id="contato" style="background-color: #eee5f1;">
+    <div class="container py-5">
+      <h4 class="my-title text-center">Contato</h4>
+      <h3 class="text-center my-title mb-4">Veja como você pode falar conosco</h3>
+      <div class="row mt-5">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-6 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-location-dot icon"></i>
+              </p>
+              <h3>Endereço</h3>
+              <p>
+                Av. Paulista, 001 <br> 
+                São Paulo - SP
+              </p>
+            </div>
+            <div class="col-lg-6 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-phone icon"></i>
+              </p>
+              <h3>Telefone</h3>
+              <p>
+                (11) 9909-9909 <br>
+                (11) 9888-8787 </p>
+            </div>
+            <div class="col-lg-6 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-envelope icon"></i>
+              </p>
+              <h3>Email</h3>
+              <p>smart.cash@invest.com</p>
+            </div>
+            <div class="col-lg-6 my-4 text-center">
+              <p>
+                <i class="fa-solid fa-clock icon"></i>
+              </p>
+              <h3>Atendimento</h3>
+              <p>
+                Segunda - Sexta <br>
+                08:00 - 22:00
+              </p>
+            </div>
+          </div>
+          
+          </div>
+          <div class="col-lg-6">
+            <form action="">
+              <div class="row text-start">
+                <div class="col-lg-6 my-3">
+                  <label for="nome" class="form-label">Seu nome</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                </div>
+
+                <div class="col-lg-6 my-2">
+                  <label for="email" class="form-label">Seu email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Seu nome">
+                </div>
+
+                <div class="col-lg-6 my-2">
+                  <label for="fone" class="form-label">Seu telefone</label>
+                  <input type="tel" class="form-control" id="fone" placeholder="(xx) 9999-9999">
+                </div>
+
+                <div class="col-lg-6 my-2">
+                  <label for="mensagem" class="form-label">Assunto</label>
+                  <input type="text" class="form-control" id="mensagem" placeholder="Assunto">
+                </div>
+
+                <div class="col-lg-6 my-2">
+                  <label for="nome" class="form-label">Mensagem</label>
+                  <textarea type="mensagem" class="form-control" id="mensagem" placeholder="Sua mensagem"
+                  aria-colspan="form-control"></textarea>
+                </div>
+
+                <div class="col-lg-12 my-2 d-flex justify-content-end">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Final Footer -->
+
+  <!-- Chamada JavaScript Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <!-- Final da chamada JavaScript Bootstrap -->
+</body>
+
+</html>

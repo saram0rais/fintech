@@ -1,0 +1,85 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sora', sans-serif;  
+}
+
+:root {
+    --bg-purple-1: #6b189b;
+    --bg-purple-2: #F6F9FF;
+    --bg-purple-3: #ad72c9;
+    --bg-purple-4: #8b58ff;
+    --margin-top: 100px;
+    --btn-primary: #01E4D9;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    color: var(--bg-purple-1);
+    font-weight: 800;
+}
+
+.logo-icon {
+    color: var(--bg-purple-4);
+}
+
+.my-mt {
+    margin-top: var(--margin-top)
+}
+
+.nav-item a {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.my-title {
+    color: var(--bg-purple-1);
+    font-weight: 700;
+}
+
+.bg-purple-2 {
+    background-color: var(--bg-purple-2);
+}
+
+.sobre {
+    min-height: 60vh;
+}
+
+.icon {
+    font-size: 60px;
+    color: var(--bg-purple-4);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover{
+    background-color: var(--bg-purple-2);
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: var(--bg-purple-1);
+    transition: .5s;
+}
+
+.icon-social:hover {
+    color: var(--bg-purple-3);
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+.btn{
+    background-color: var(--btn-primary);
+    border-color: var(--btn-primary);
+}
